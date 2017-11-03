@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+  fetch:
+    image: hltcoe/fetch-wikiqa-corpus
+    command: --port 9090
+    ports:
+      - "9090:9090"

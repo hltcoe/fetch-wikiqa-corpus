@@ -23,3 +23,7 @@ You can run a container created from the image using:
 e.g.:
 
     docker run -it --rm hltcoe/fetch-wikiqa-corpus --port 5050
+
+If you would like to use this Docker image in a Docker Compose
+workflow, look at the sample [docker-compose.yml](docker-compose.yml)
+file in this repo.
