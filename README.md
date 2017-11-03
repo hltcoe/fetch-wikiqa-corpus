@@ -22,4 +22,4 @@ You can run a container created from the image using:
 
 e.g.:
 
-    docker run --it --rm hltcoe/fetch-wikiqa-corpus --port 5050
+    docker run -it --rm hltcoe/fetch-wikiqa-corpus --port 5050
