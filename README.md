@@ -9,17 +9,17 @@ data set.
 This repo does not include a copy of the Communications - you must
 copy them from the HLTCOE filesystem:
 
-  /exp/charman/WikiQA-comms.zip
+    /exp/charman/WikiQA-comms.zip
   
 to this directory.  You can then build a Docker image using the
 Dockerfile in this directory, e.g.:
 
-  docker build -t hltcoe/fetch-wikiqa-corpus .
+    docker build -t hltcoe/fetch-wikiqa-corpus .
 
 You can run a container created from the image using:
 
-  docker run -it --rm hltcoe/fetch-wikiqa-corpus [--port PORT] [--host SERVER_HOSTNAME]
+    docker run -it --rm hltcoe/fetch-wikiqa-corpus [--port PORT] [--host SERVER_HOSTNAME]
 
 e.g.:
 
-  docker run --it --rm hltcoe/fetch-wikiqa-corpus --port 5050
+    docker run --it --rm hltcoe/fetch-wikiqa-corpus --port 5050
