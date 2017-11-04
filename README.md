@@ -3,8 +3,15 @@ fetch-wikiqa-corpus
 
 This repo contains a Dockerfile for building a
 FetchCommunicationService server that comes bundled with
-Communications for the Wikipedia articles that are part of the WikiQA
-data set.
+Communications for 2,384 Wikipedia articles that are part of the
+[WikiQA](https://aclweb.org/anthology/D15-1237) data set.
+The file [WikiQA-articles.txt](WikiQA-articles.txt) contains the
+list of article titles.
+
+These Communications are a subset of [Concretely Annotated Gigaword
+(CAW)](http://dx.doi.org/10.7281/T1/D06YVM).  CAW was created by
+annotating articles from the 2016-02-16 database dump of English
+Wikipedia.
 
 This repo does not include a copy of the Communications - you must
 copy them from the HLTCOE filesystem:
